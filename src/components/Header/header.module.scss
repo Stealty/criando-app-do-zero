@@ -1,8 +1,7 @@
-.header {
-  max-width: 50%;
-  margin: 0 auto;
-  padding: 32px 0;
-  a {
-    cursor: pointer;
-  }
+.postHeader{
+  height: 6rem;
+  max-width: 700px;
+  margin:0 auto;
+  display:flex;
+  align-items: center;
 }

@@ -1,18 +1,14 @@
-/* eslint-disable no-use-before-define */
-import React from 'react';
 import Link from 'next/link';
 import styles from './header.module.scss';
 
-const Header: React.FC = () => {
+export default function Header() {
   return (
-    <header className={styles.header}>
+    <header className={styles.postHeader}>
       <Link href="/">
-        <a href="/">
-          <img src="/images/Logo.svg" alt="logo" />
+        <a>
+          <img src="/logo.svg" alt="logo" className={styles.logo} />
         </a>
       </Link>
     </header>
   );
-};
-
-export default Header;
+}

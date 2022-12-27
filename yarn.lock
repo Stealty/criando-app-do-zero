@@ -764,13 +764,6 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
-"@types/date-fns@^2.6.0":
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/@types/date-fns/-/date-fns-2.6.0.tgz#b062ca46562002909be0c63a6467ed173136acc1"
-  integrity sha512-9DSw2ZRzV0Tmpa6PHHJbMcZn79HHus+BBBohcOaDzkK/G3zMjDUDYjJIWBFLbkh+1+/IOS0A59BpQfdr37hASg==
-  dependencies:
-    date-fns "*"
-
 "@types/graceful-fs@^4.1.2":
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/@types/graceful-fs/-/graceful-fs-4.1.5.tgz#21ffba0d98da4350db64891f92a9e5db3cdb4e15"
@@ -2018,7 +2011,7 @@ data-urls@^2.0.0:
     whatwg-mimetype "^2.3.0"
     whatwg-url "^8.0.0"
 
-date-fns@*, date-fns@^2.29.3:
+date-fns@^2.19.0:
   version "2.29.3"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.29.3.tgz#27402d2fc67eb442b511b70bbdf98e6411cd68a8"
   integrity sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==
@@ -3963,6 +3956,11 @@ jest@^26.6.3:
     import-local "^3.0.2"
     jest-cli "^26.6.3"
 
+js-cookie@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/js-cookie/-/js-cookie-2.2.1.tgz#69e106dc5d5806894562902aa5baec3744e9b2b8"
+  integrity sha512-HvdH2LzI/EAZcUwA8+0nKNtWHqS+ZmijLA30RwZA0bo7ToCckjK5MkGhjED9KoRcXO6BaGI3I9UIzSA1FKFPOQ==
+
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -4444,6 +4442,13 @@ next@10.0.7:
   optionalDependencies:
     sharp "0.26.3"
 
+nextjs-progressbar@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/nextjs-progressbar/-/nextjs-progressbar-0.0.8.tgz#37c4c48dffce76d990f71e5113815a854a782e8b"
+  integrity sha512-lXhP79EISePJIb0kc2ZZ6cLJbt8nieEJWN13VVxUJQxtWxTG20/vdEp4GeZp5cVdUv5/qP2d2/YlMTrV4kPiVw==
+  dependencies:
+    nprogress "^0.2.0"
+
 nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
@@ -4574,6 +4579,11 @@ npmlog@^4.0.1, npmlog@^4.1.2:
     console-control-strings "~1.1.0"
     gauge "~2.7.3"
     set-blocking "~2.0.0"
+
+nprogress@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/nprogress/-/nprogress-0.2.0.tgz#cb8f34c53213d895723fcbab907e9422adbcafb1"
+  integrity sha512-I19aIingLgR1fmhftnbWWO3dXc0hSxqHQHQb3H8m+K3TnEn/iSeTZZOyvKXWqQESMwuUVnatlCnZdLBZZt2VSA==
 
 number-is-nan@^1.0.0:
   version "1.0.1"
