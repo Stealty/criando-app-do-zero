@@ -16,6 +16,7 @@ function linkResolver(doc: Document): string {
 
 // Client method to query from the Prismic repo
 const Client = (req = null) =>
+  // eslint-disable-next-line no-use-before-define
   Prismic.client(apiEndpoint, createClientOptions(req, accessToken));
 
 const createClientOptions = (req = null, prismicAccessToken = null) => {
@@ -29,6 +30,7 @@ const createClientOptions = (req = null, prismicAccessToken = null) => {
   };
 };
 
+// eslint-disable-next-line consistent-return
 const Preview = async (req, res) => {
   const { token: ref, documentId } = req.query;
   const redirectUrl = await Client(req)

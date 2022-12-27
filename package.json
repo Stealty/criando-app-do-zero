@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@prismicio/client": "^4.0.0",
-    "date-fns": "^2.19.0",
+    "date-fns": "^2.29.3",
     "js-cookie": "^2.2.1",
     "next": "10.0.7",
     "nextjs-progressbar": "^0.0.8",

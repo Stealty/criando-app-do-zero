@@ -1,8 +1,8 @@
 .posts {
-  margin-top:2em;
+  margin-top: 2em;
 
   > a {
-    display:block;
+    display: block;
   }
 
   a + a {
@@ -10,36 +10,34 @@
   }
 
   button {
-    border:none;
-    background:transparent;
-    font-weight:600;
+    border: none;
+    background: transparent;
+    font-weight: 600;
     font-size: 1.125rem;
-    color:var(--highlight);
-    margin-top:4rem;
+    color: var(--highlight);
+    margin-top: 4rem;
   }
-
 }
 
 .post {
-
   strong {
-    font-size:1.75rem;
+    font-size: 1.75rem;
     font-weight: bold;
-    color:var(--heading);
+    color: var(--heading);
   }
 
-  p{
-    margin-top:0.5rem;
-    font-size:1.125rem;
+  p {
+    margin-top: 0.5rem;
+    font-size: 1.125rem;
   }
 
   ul {
     list-style: none;
-    margin-top:1.5rem;
+    margin-top: 1.5rem;
     display: flex;
 
     & li {
-      font-size:0.875rem;
+      font-size: 0.875rem;
 
       & svg {
         margin-right: 0.5rem;
@@ -50,4 +48,12 @@
       }
     }
   }
+}
+
+.postContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
